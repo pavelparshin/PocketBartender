@@ -13,6 +13,8 @@
 		2B8D5BB2249406A600EE08B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B8D5BB0249406A600EE08B5 /* Main.storyboard */; };
 		2B8D5BB4249406A700EE08B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B8D5BB3249406A700EE08B5 /* Assets.xcassets */; };
 		2B8D5BB7249406A700EE08B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B8D5BB5249406A700EE08B5 /* LaunchScreen.storyboard */; };
+		2B8D5BC52494099000EE08B5 /* CoctailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8D5BC42494099000EE08B5 /* CoctailModel.swift */; };
+		2B8D5BC924940B7200EE08B5 /* CocktailRecipeDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8D5BC824940B7200EE08B5 /* CocktailRecipeDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2B8D5BB3249406A700EE08B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B8D5BB6249406A700EE08B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B8D5BB8249406A700EE08B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B8D5BC42494099000EE08B5 /* CoctailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoctailModel.swift; sourceTree = "<group>"; };
+		2B8D5BC824940B7200EE08B5 /* CocktailRecipeDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailRecipeDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,65 @@
 		2B8D5BA9249406A600EE08B5 /* PocketBartender */ = {
 			isa = PBXGroup;
 			children = (
-				2B8D5BAA249406A600EE08B5 /* AppDelegate.swift */,
-				2B8D5BAC249406A600EE08B5 /* SceneDelegate.swift */,
-				2B8D5BAE249406A600EE08B5 /* ViewController.swift */,
-				2B8D5BB0249406A600EE08B5 /* Main.storyboard */,
-				2B8D5BB3249406A700EE08B5 /* Assets.xcassets */,
-				2B8D5BB5249406A700EE08B5 /* LaunchScreen.storyboard */,
-				2B8D5BB8249406A700EE08B5 /* Info.plist */,
+				2B8D5BC1249406E700EE08B5 /* ViewControllers */,
+				2B8D5BC0249406DC00EE08B5 /* Storyboards */,
+				2B8D5BC32494070000EE08B5 /* DataManager */,
+				2B8D5BC2249406F600EE08B5 /* Models */,
+				2B8D5BBF249406CD00EE08B5 /* Suurce */,
+				2B8D5BBE249406BB00EE08B5 /* SupportingFiles */,
 			);
 			path = PocketBartender;
+			sourceTree = "<group>";
+		};
+		2B8D5BBE249406BB00EE08B5 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2B8D5BAA249406A600EE08B5 /* AppDelegate.swift */,
+				2B8D5BAC249406A600EE08B5 /* SceneDelegate.swift */,
+				2B8D5BB8249406A700EE08B5 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		2B8D5BBF249406CD00EE08B5 /* Suurce */ = {
+			isa = PBXGroup;
+			children = (
+				2B8D5BB3249406A700EE08B5 /* Assets.xcassets */,
+			);
+			path = Suurce;
+			sourceTree = "<group>";
+		};
+		2B8D5BC0249406DC00EE08B5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2B8D5BB0249406A600EE08B5 /* Main.storyboard */,
+				2B8D5BB5249406A700EE08B5 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2B8D5BC1249406E700EE08B5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2B8D5BAE249406A600EE08B5 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2B8D5BC2249406F600EE08B5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2B8D5BC42494099000EE08B5 /* CoctailModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2B8D5BC32494070000EE08B5 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				2B8D5BC824940B7200EE08B5 /* CocktailRecipeDataManager.swift */,
+			);
+			path = DataManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +193,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B8D5BAF249406A600EE08B5 /* ViewController.swift in Sources */,
+				2B8D5BC924940B7200EE08B5 /* CocktailRecipeDataManager.swift in Sources */,
+				2B8D5BC52494099000EE08B5 /* CoctailModel.swift in Sources */,
 				2B8D5BAB249406A600EE08B5 /* AppDelegate.swift in Sources */,
 				2B8D5BAD249406A600EE08B5 /* SceneDelegate.swift in Sources */,
 			);
@@ -294,7 +350,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.PocketBartender;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +368,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.PocketBartender;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
