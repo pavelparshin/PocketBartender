@@ -38,7 +38,7 @@
             </objects>
             <point key="canvasLocation" x="1149.375" y="132.04225352112675"/>
         </scene>
-        <!--View Controller-->
+        <!--Ингридиенты-->
         <scene sceneID="eqG-Ml-ciB">
             <objects>
                 <viewController id="OVS-hP-NaZ" sceneMemberID="viewController">
@@ -46,13 +46,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ингридиенты" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rGx-Nc-Kjz">
-                                <rect key="frame" x="106" y="81" width="109" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Qt-0d-hK8">
                                 <rect key="frame" x="199" y="160" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -90,7 +83,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="g8A-RV-XW2"/>
                     </view>
-                    <navigationItem key="navigationItem" id="MCt-z3-GhA"/>
+                    <navigationItem key="navigationItem" title="Ингридиенты" id="MCt-z3-GhA"/>
                     <connections>
                         <segue destination="qG0-gd-L6R" kind="show" id="N6o-Yj-KhU"/>
                     </connections>
@@ -99,7 +92,7 @@
             </objects>
             <point key="canvasLocation" x="1867.5" y="130.98591549295776"/>
         </scene>
-        <!--View Controller-->
+        <!--Коктейль-->
         <scene sceneID="oQG-Hg-hbP">
             <objects>
                 <viewController id="qG0-gd-L6R" sceneMemberID="viewController">
@@ -107,13 +100,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Итог" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m2a-Dg-9y5">
-                                <rect key="frame" x="139" y="61" width="38" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="idr-RX-qm1">
                                 <rect key="frame" x="80" y="150" width="161" height="161"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -136,7 +122,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="yaf-Kv-6Q4"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Njd-fp-mBT">
+                    <navigationItem key="navigationItem" title="Коктейль" id="Njd-fp-mBT">
                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="fz2-61-O4i"/>
                     </navigationItem>
                 </viewController>

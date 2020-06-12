@@ -13,4 +13,5 @@ struct CoctailModel {
     let amountOfAlcohol: Int
     let ingredients: [String]
     let descrpiption: String
+    let image: String?
 }
